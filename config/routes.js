@@ -34,6 +34,18 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
+  },
+  '/getstarted': {
+    view: 'getstarted'
+  },
+  '/login': {
+    view: 'login'
+  },
+  '/faq': {
+    view: 'faq'
+  },
+  '/about': {
+    view: 'about'
   }
 
   /***************************************************************************

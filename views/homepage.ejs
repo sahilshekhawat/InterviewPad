@@ -23,24 +23,15 @@
     margin-top : 5% ;
 
   }
-
-  .header {
-    padding-right: 300px;
-  }
-
-  #header-row-link {
-    float: right;
-    margin-right: 50px;
-    margin-top: 30px;
-  }
 </style>
 
 <div class="header">
-
-  <a id="header-row-link" href="/login">Login</a>
-  <a id="header-row-link" href="/register">Register</a>
-
+  <a id="header-row-link-left" href="/">InterviewPad</a>  
+  <a id="header-row-link-right" href="/login">Login</a>
+  <a id="header-row-link-right" href="/faq">FAQ</a>
+  <a id="header-row-link-right" href="/about">How it works</a>
 </div>
+
 
 <div class="jumbotron text-center">
   <div id="main-content">
@@ -54,7 +45,7 @@
         <button class="btn btn-default btn-block">Login</button>
       </div> -->
       <div class="col-md-2">
-        <button class="btn btn-block btn-hg btn-embossed btn-info btn-wide">Get Started</button>
+        <a href="/getstarted" class="btn btn-block btn-hg btn-embossed btn-info btn-wide">Get Started</a>
       </div>
       <div class="col-md-5"></div>
     </div>
