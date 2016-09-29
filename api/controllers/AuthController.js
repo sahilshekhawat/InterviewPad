@@ -14,5 +14,9 @@ module.exports = require('waterlock').waterlocked({
   
     }
   */
+  register: function(req, res){
+  	console.log(Auth.user);
+  	return res.view("home");
+  }
 
 });

@@ -1,9 +1,5 @@
 <style>
 
-  input {
-  	margin-bottom: 10px;
-  }
-
   .main-div {
   	padding-top: 5%;
   }
@@ -19,10 +15,10 @@
 <div class="row">
 	<div class="col-md-3 col-md-offset-4 main-div">
 		<h3 style="text-align: center; ">Welcome Back</h3>
-		<form class="loginform">
-			<input type="text" placeholder="Email" class="form-control" />
-			<input type="text" placeholder="Password" class="form-control" />
-			<button class="btn btn-info btn-block btn-embossed">Login</button>
+		<form class="loginform" action="/auth/login">
+			<input type="email" placeholder="Email" name="email" class="form-control" />
+			<input type="password" placeholder="Password" name="password" class="form-control" />
+			<input type="submit" class="btn btn-info btn-block btn-embossed"/>
 		</form>
 	</div>
 </div>

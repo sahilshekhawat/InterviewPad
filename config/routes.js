@@ -46,6 +46,10 @@ module.exports.routes = {
   },
   '/about': {
     view: 'about'
+  },
+  '/home': {
+    controller: 'Home',
+    action: 'home'
   }
 
   /***************************************************************************

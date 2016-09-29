@@ -44,7 +44,7 @@ module.exports.waterlock = {
           vars:{}
         }
       },
-      createOnNotFound: true
+      createOnNotFound: false
     }
   ],
 
@@ -103,7 +103,7 @@ module.exports.waterlock = {
       // obj - {controller: 'blog', action: 'post'}
       // string - 'custom json response string'
       // default - 'default'
-      success: 'default',
+      success: '/home',
 
       // This can be any one of the following
       //
@@ -112,7 +112,7 @@ module.exports.waterlock = {
       // obj - {controller: 'blog', action: 'post'}
       // string - 'custom json response string'
       // default - 'default'
-      failure: 'default'
+      failure: '/login'
     },
 
     //post logout event
@@ -125,7 +125,7 @@ module.exports.waterlock = {
       // obj - {controller: 'blog', action: 'post'}
       // string - 'custom json response string'
       // default - 'default'
-      success: 'default',
+      success: '/',
 
       // This can be any one of the following
       //
@@ -145,7 +145,7 @@ module.exports.waterlock = {
      // obj - {controller: 'blog', action: 'post'}
      // string - 'custom json response string'
      // default - 'default'
-     success: 'default',
+     success: '/home',
      // This can be any one of the following
      //
      // url - 'http://example.com'
